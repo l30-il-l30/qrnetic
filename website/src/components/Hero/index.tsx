@@ -36,7 +36,7 @@ export function Hero() : React.JSX.Element {
             </section>
 
             {/* Features Section */}
-            <section className="py-20">
+            <section className="py-32">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="text-center space-y-4">
                         <div className="w-12 h-12 mx-auto bg-primary/10 rounded-full flex items-center justify-center">
