@@ -6,3 +6,14 @@ export interface CookieOptions {
     maxAge?: number;
     domain?: string;
 }
+
+export interface Particle {
+    x: number;
+    y: number;
+    initialX: number;
+    initialY: number;
+    size: number;
+    isQRPixel: boolean;
+    scatterX: number;
+    scatterY: number;
+}
