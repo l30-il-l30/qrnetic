@@ -34,12 +34,12 @@ export function Header() : React.JSX.Element {
     }
 
     return <>
-        <header className="sticky top-0 border-b flex items-center justify-center mx-3">
-            <div className="container flex h-16 items-center justify-between">
+        <header className="h-16 border-b flex items-center justify-center mx-3">
+            <div className="container flex h-full items-center justify-between">
                 <div className="flex">
                     <Link href="/" className="flex items-center space-x-2">
                         <QrCode className="h-6 w-6 text-primary" />
-                        <span className="text-xl font-bold">QR Generator</span>
+                        <span className="text-xl font-bold">QRnetic</span>
                     </Link>
                 </div>
 
